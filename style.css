@@ -31,10 +31,10 @@ nav {
  
 }
 nav .mainMenu {
-  position: relative;
+ 
   display: flex;
   list-style: none;
-margin-top: -4vw;
+margin-top: 1vw;
 margin-right: 3vw;
 }
 nav .mainMenu li a {
