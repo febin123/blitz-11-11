@@ -32,7 +32,7 @@ const header=document.getElementById('hea');
 
 openMenu.addEventListener('click',show);
 closeMenu.addEventListener('click',close);
-// mainMenu.addEventListener('click',close1);
+mainMenu.addEventListener('click',close1);
 function show(){
     mainMenu.style.display = 'flex';
     mainMenu.style.top = '0';
@@ -48,7 +48,7 @@ function close1(){
 
 window.addEventListener("scroll",function(){
     var header=document.querySelectorAll("nav");
-    header.classList.bottom("sticky",window.scrollY>0)
+    header.classList.bottom("fixed",window.scrollY>0)
 
 })
 
